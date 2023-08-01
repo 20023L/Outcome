@@ -6,8 +6,20 @@ p1 {
 h1 {
 	
 }
+
 body {
 	background-color: #fcffe1;
 	margin: 30px;
 }
 
+.topnav {
+	margin-bottom: 30px;
+}
+
+.logo {
+	width: 160px;
+}
+
+.navButtons {
+	display: block;
+}

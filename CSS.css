@@ -1,13 +1,64 @@
+/*Paragraph Properties*/
 p1 {
 	font: Calibri;
 	font-size: 20px;
 }
 
+/*Heading Properties*/
 h1 {
 	
 }
+
+/*Body Properties*/
 body {
 	background-color: #fcffe1;
 	margin: 30px;
 }
 
+/*Logo Properties*/
+.logo {
+	height: 85px;
+	float: right;
+	padding-right: 150px;
+}
+
+/*Navigation Bar Properties*/
+.topnav {
+	overflow: hidden;
+	margin-bottom: 30px
+}
+
+/*Navigation Buttons Properties*/
+.topnav a {
+	float: left;
+	background-color: #97ffa6;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 14px 83px;
+	margin-right: 9px;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+}
+
+/*Active Navigation Button Properties*/
+.topnav a.active {
+	background-color: #a0ee44;
+}
+
+/*Hover Navigation Button Properties*/
+.topnav a:hover {
+	background-color: #47ee86;
+}
+
+.topnav a.active:hover {
+	background-color: #c4ee44;
+}
+
+.topnav a.about {
+}

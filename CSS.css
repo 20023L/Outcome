@@ -1,31 +1,95 @@
 /*Paragraph Properties*/
-p1 {
+.paragraph {
 	font: Calibri;
-	font-size: 20px;
+	font-size: 24px;
+	margin: 0 30px -50px;
 }
 
 /*Heading Properties*/
 h1 {
-	
+	font-size: 44px;
+	margin-left: 30px;
 }
 
 /*Body Properties*/
 body {
 	background-color: #fcffe1;
-	margin: 30px;
+	margin: 0px;
+	height: 100%;
+}
+
+/*Horizontal Rule Properties*/
+HR {
+	border-color: black;
+	margin-bottom: 50px;
+	top: 114px;
+	position: sticky;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*Footer Properties*/
+footer {
+	position: sticky;
+	width: 100%;
+	background-color: #888888;
+	border-top: solid;
+	border-color: #555566;
+	border-width: 2px;
+	padding-bottom: 1px;
+	bottom: 0;
+	margin-top: 40px;
+}
+
+.aboutUsContent {
+	padding-bottom: 390px;
+	
+}
+
+
+/*Footer Text Properties*/
+footer:hover {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #666666;
+	border-color: #000000;
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+/*Footer Text Properties*/
+.footerText {
+	color: white;
+	text-align: centre;
+	margin-top: 15px;
+	margin-left: 50px;
 }
 
 /*Logo Properties*/
 .logo {
 	height: 85px;
 	float: right;
-	padding-right: 150px;
+	padding-right: 120px;
+	position: sticky;
+	margin-top: 9px;
+}
+
+/*Homepage Image Properties*/
+.EV {
+	width: 950px;
+	float: right;
 }
 
 /*Navigation Bar Properties*/
 .topnav {
 	overflow: hidden;
-	margin-bottom: 30px
+	padding-left: 30px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	background-color: #fcffe1;
+	top: 0px;
+	position: sticky;
+	background-color: #fcffe1;
 }
 
 /*Navigation Buttons Properties*/
@@ -38,17 +102,19 @@ body {
 	font-size: 30px;
 	font-family: Arial;
 	font-weight: bold;
-	padding: 14px 83px;
-	margin-right: 9px;
+	padding: 13px 83px;
+	margin-right: 18px;
 	border: 2px;
 	border-style: solid;
 	border-color: black;
 	border-radius: 10px;
+	position: sticky;
+	left: 0px;
 }
 
 /*Active Navigation Button Properties*/
 .topnav a.active {
-	background-color: #a0ee44;
+	background-color: #c4ee44;
 }
 
 /*Hover Navigation Button Properties*/
@@ -56,9 +122,17 @@ body {
 	background-color: #47ee86;
 }
 
+/*Hover on Active Navigation Button Properties*/
 .topnav a.active:hover {
-	background-color: #c4ee44;
+	background-color: #a0ee44;
 }
 
-.topnav a.about {
+.map {
+	height: 700px;
+	width: 1400px;
+	border-style: solid;
+	border-width: 2px;
+	margin-top: 71px;
+	margin-left: 50px;
+	SameSite: None, Secure;
 }
